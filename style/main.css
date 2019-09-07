@@ -1,0 +1,187 @@
+.iconBtn {
+  color: #555;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.iconBtn:hover {
+  color: #4fb2a1;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #4fb2a1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row {
+  width: 80%;
+  margin-bottom: 80px;
+}
+
+.header {
+  border-bottom: 1px solid #ccc;
+}
+
+.main ul {
+  max-height: 250px;
+  overflow: auto;
+}
+
+.main ul::-webkit-scrollbar {
+  width: 1px;
+}
+
+.main ul::-webkit-scrollbar-thumb {
+  background: #5ae3ba;
+}
+
+.main ul::-webkit-scrollbar-track {
+  -webkit-box-shadow: 1px 0px 0px #ccccccb3 inset;
+          box-shadow: 1px 0px 0px #ccccccb3 inset;
+}
+
+.listItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  padding: 0 15px;
+}
+
+.listItem .ui-checked-display {
+  cursor: pointer;
+  font-size: 0;
+}
+
+.listItem .ui-checked-display .ui-checkbox {
+  display: none;
+}
+
+.listItem .ui-checked-display:hover .ui-show {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  color: #4fb2a1;
+}
+
+.listItem .item {
+  padding: 0 15px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.listItem .item input {
+  margin: .5em 0px;
+  padding: .5em 0px;
+  width: 100%;
+  letter-spacing: 2px;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.listItem.completed {
+  color: #ccc;
+}
+
+.listItem.completed .item {
+  text-decoration: line-through;
+}
+
+.listItem.completed .iconBtn {
+  color: #ccc;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.listItem.completed .iconBtn:hover {
+  color: #4fb2a1;
+}
+
+.add-item {
+  border: 1px solid #4fb2a1;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.add-item input {
+  outline: 0;
+  margin: 0;
+  border: 0;
+}
+
+.add-item input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.add-item .btn {
+  background-color: #4fb2a1;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.add-item .btn:hover {
+  background: #5ae3ba;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/*# sourceMappingURL=main.css.map */

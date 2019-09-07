@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>To do list</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="dist/style/main.min.css">
+</head>
+
+<body>
+	<div class="container">
+		<section class="row">
+			<div class="header">
+				<h1>Todo list</h1>
+			</div>
+			<div class="main">
+				<ul id="todoList">
+					<!-- <li class="listItem" data-index=${i}>
+						<label class="ui-checked-display">
+							<input type="checkbox" class="ui-checkbox">
+							<i class="material-icons ui-show">check_box_outline_blank</i>
+						</label>
+						<div class="item">
+							<p class="text">買牛奶</p>
+						</div>
+						<a href="javascript:;" class="iconBtn" data-action="delete"><i class="material-icons">delete</i>
+						</a>
+					</li>
+					<li class="listItem" data-index=${i}>
+						<label class="ui-checked-display">
+							<input type="checkbox" class="ui-checkbox">
+							<i class="material-icons ui-show">check_box_outline_blank</i>
+							<i class="material-icons ui-hidden">check_box</i>
+						</label>
+						<div class="item">
+							<input type="text" class='editing'>
+						</div>
+						<a href="javascript:;" class="iconBtn" data-action="delete"><i class="material-icons">delete</i>
+						</a>
+					</li> -->
+				</ul>
+			</div>
+			<div class="add-item">
+				<input type="text" id="input" placeholder="Add a to-do">
+				<div>
+					<a href="javascript:;" class="btn"><i>+</i></a>
+				</div>
+			</div>
+		</section>
+
+		<section class="row">
+			<div class="header">
+				<h1>completed List</h1>
+			</div>
+			<div class="main">
+				<ul id="completedList">
+
+				</ul>
+			</div>
+		</section>
+	</div>
+
+	<script src="js/all.js"></script>
+</body>
+
+</html>
